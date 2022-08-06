@@ -34,7 +34,7 @@ export default {
       commit('setPendingRequest', true);
 
       const songs = [];
-      const spotifyUrl = 'https://ninki-api.herokuapp.com/ranking';
+      const spotifyUrl = '/api/ranking'; // 'https://ninki-api.herokuapp.com/ranking';
       const headers = {
         chart: state.chart,
         'Content-Encoding': 'gzip',
